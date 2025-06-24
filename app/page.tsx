@@ -30,11 +30,11 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center p-1">
+              <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center p-2">
                 <img
                   src="/images/hobel-logo-clean.png"
                   alt="Schreinerei Maier Logo - Traditioneller Hobel"
-                  className="w-12 h-12 object-contain"
+                  className="w-24 h-24 object-contain"
                 />
               </div>
               <div>
@@ -165,11 +165,11 @@ export default function HomePage() {
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-2">
+                  <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center p-4">
                     <img
                       src="/images/hobel-logo-clean.png"
                       alt="Traditioneller Hobel"
-                      className="w-12 h-12 object-contain"
+                      className="w-24 h-24 object-contain"
                     />
                   </div>
                   <div>
@@ -484,11 +484,11 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center p-1">
+                <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center p-2">
                   <img
                     src="/images/hobel-logo-clean.png"
                     alt="Schreinerei Maier Logo"
-                    className="w-9 h-9 object-contain"
+                    className="w-18 h-18 object-contain"
                   />
                 </div>
                 <div>

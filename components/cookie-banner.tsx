@@ -7,13 +7,20 @@ import { X, Cookie } from "lucide-react"
 
 export function CookieBanner() {
   const [isVisible, setIsVisible] = useState(false)
+  const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
-    const cookieConsent = localStorage.getItem("cookieConsent")
-    if (!cookieConsent) {
-      setIsVisible(true)
-    }
+    setIsMounted(true)
   }, [])
+
+  useEffect(() => {
+    if (isMounted) {
+      const cookieConsent = localStorage.getItem("cookieConsent")
+      if (!cookieConsent) {
+        setIsVisible(true)
+      }
+    }
+  }, [isMounted])
 
   const acceptCookies = () => {
     localStorage.setItem("cookieConsent", "accepted")
@@ -25,7 +32,7 @@ export function CookieBanner() {
     setIsVisible(false)
   }
 
-  if (!isVisible) return null
+  if (!isMounted || !isVisible) return null
 
   return (
     <div className="fixed bottom-4 left-4 right-4 z-50 md:left-auto md:right-4 md:max-w-md">
