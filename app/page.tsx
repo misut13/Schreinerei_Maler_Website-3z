@@ -30,8 +30,12 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-[#2e4e1e] rounded-lg flex items-center justify-center">
-                <Hammer className="w-6 h-6 text-white" />
+              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center p-1">
+                <img
+                  src="/images/hobel-logo-clean.png"
+                  alt="Schreinerei Maier Logo - Traditioneller Hobel"
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-[#2e4e1e]">Schreinerei Maier</h1>
@@ -161,8 +165,12 @@ export default function HomePage() {
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-[#2e4e1e] rounded-full flex items-center justify-center">
-                    <Hammer className="w-6 h-6 text-white" />
+                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-2">
+                    <img
+                      src="/images/hobel-logo-clean.png"
+                      alt="Traditioneller Hobel"
+                      className="w-8 h-8 object-contain"
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">40+ Jahre</p>
@@ -476,8 +484,12 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                  <Hammer className="w-5 h-5 text-[#2e4e1e]" />
+                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center p-1">
+                  <img
+                    src="/images/hobel-logo-clean.png"
+                    alt="Schreinerei Maier Logo"
+                    className="w-6 h-6 object-contain"
+                  />
                 </div>
                 <div>
                   <h3 className="font-bold">Schreinerei Maier</h3>
