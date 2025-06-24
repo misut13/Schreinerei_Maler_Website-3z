@@ -1,11 +1,18 @@
+"use client"
+
+import { useEffect } from "react"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 
 export default function ImpressumPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
-    <div className="min-h-screen bg-white py-20">
+    <div className="min-h-screen bg-white pt-24 pb-12 scroll-mt-20">
       <div className="container mx-auto px-4 max-w-4xl">
-        <Link href="/" className="inline-flex items-center text-[#2e4e1e] hover:underline mb-8">
+        <Link href="/" className="inline-flex items-center text-[#2e4e1e] hover:underline mb-6">
           <ArrowLeft className="w-4 h-4 mr-2" />
           Zurück zur Startseite
         </Link>
