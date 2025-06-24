@@ -168,7 +168,23 @@ export default function HomePage() {
                 alt="Traditionelle Schreinerwerkstatt der Schreinerei Maier mit großen Sprossenfenstern, massivem Arbeitstisch und handwerklichen Werkzeugen"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
+              {/* Mobile Version - kleiner und anders positioniert */}
+              <div className="absolute -bottom-3 -right-3 bg-white p-3 rounded-lg shadow-lg sm:hidden">
+                <div className="flex items-center space-x-2">
+                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-2">
+                    <img
+                      src="/images/hobel-logo-clean.png"
+                      alt="Traditioneller Hobel"
+                      className="w-12 h-12 object-contain"
+                    />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-gray-900">40+ Jahre</p>
+                    <p className="text-xs text-gray-600">Erfahrung</p>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg hidden sm:block">
                 <div className="flex items-center space-x-4">
                   <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center p-4">
                     <img
@@ -231,9 +247,15 @@ export default function HomePage() {
                 alt="Hochwertiges Holzmöbel der Schreinerei Maier - modernes Sideboard mit Regal aus hellem Holz"
                 className="rounded-lg shadow-xl w-full h-auto"
               />
-              <div className="absolute top-6 right-6 bg-[#f5f0e1] p-4 rounded-lg">
-                <p className="text-sm font-semibold text-[#2e4e1e]">Meisterbetrieb</p>
+              {/* Mobile Version - kleiner */}
+              <div className="absolute bottom-3 right-3 bg-[#f5f0e1] p-2 rounded-lg sm:hidden">
+                <p className="text-xs font-semibold text-[#2e4e1e]">Meisterbetrieb</p>
                 <p className="text-xs text-gray-600">Seit 1984</p>
+              </div>
+              {/* Desktop Version - größer */}
+              <div className="absolute bottom-6 right-6 bg-[#f5f0e1] p-6 rounded-lg hidden sm:block">
+                <p className="text-lg font-semibold text-[#2e4e1e]">Meisterbetrieb</p>
+                <p className="text-sm text-gray-600">Seit 1984</p>
               </div>
             </div>
           </div>
