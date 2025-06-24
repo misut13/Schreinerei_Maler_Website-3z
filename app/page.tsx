@@ -34,7 +34,7 @@ export default function HomePage() {
                 <img
                   src="/images/hobel-logo-clean.png"
                   alt="Schreinerei Maier Logo - Traditioneller Hobel"
-                  className="w-8 h-8 object-contain"
+                  className="w-12 h-12 object-contain"
                 />
               </div>
               <div>
@@ -169,7 +169,7 @@ export default function HomePage() {
                     <img
                       src="/images/hobel-logo-clean.png"
                       alt="Traditioneller Hobel"
-                      className="w-8 h-8 object-contain"
+                      className="w-12 h-12 object-contain"
                     />
                   </div>
                   <div>
@@ -488,7 +488,7 @@ export default function HomePage() {
                   <img
                     src="/images/hobel-logo-clean.png"
                     alt="Schreinerei Maier Logo"
-                    className="w-6 h-6 object-contain"
+                    className="w-9 h-9 object-contain"
                   />
                 </div>
                 <div>
