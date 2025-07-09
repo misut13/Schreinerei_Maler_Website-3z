@@ -1,5 +1,9 @@
 # Schreinerei maier website
 
+Diese Webseite habe ich mit v0 generieren lassen, die Bilder sind teilweise von Leonardo AI und teils von Sora erstellt worden.
+Die Webseite kann über diesen Link geöffnet werden:
+https://v0-schreinerei-maier-website.vercel.app/
+
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/misut13-7676s-projects/v0-schreinerei-maier-website)
